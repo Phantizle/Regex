@@ -1,0 +1,15 @@
+package Class;
+
+import static org.junit.Assert.*;
+import Class.ReadInWithFunc;
+import org.junit.Test;
+
+public class ReadInWithFuncTest {
+
+	@Test
+	public void testReplaceText() {
+
+		assertEquals("<this in place of old one>Some jibberdoodle", ReadInWithFunc.replaceText("<TS/SI>Some jibberdoodle"));
+	}
+
+}
